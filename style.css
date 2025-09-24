@@ -1,0 +1,61 @@
+.container{
+     background-color:blue;
+     text-align:center;
+     height:220px;
+     padding-top:10px;
+    margin-top:14px;
+}
+.paragraph{
+      
+     
+      width:50%;
+      text-align:center;
+      margin-left:300px;
+}
+.first-header{
+      color:white;
+      font-family:Arial black;
+      font-size:47px;
+}
+.bigproject{
+      
+      text-align:center;
+}
+.projects{
+      color:black;
+      font-size:35px;
+}
+.display-grid{
+      display:grid;
+      grid-template-columns:200px 200px 200px;
+      gap:80px;
+      text-align:center;
+      margin-left:200px;
+     
+}
+.div-items{
+      background-color:rgb(248, 236, 236);
+      border-radius:15px;
+      box-shadow:0px 2px 4px rgb(228, 225, 225)
+}
+.gamma{
+      font-size:18px;
+}
+.phase{
+      font-size:18px;
+}
+.alpha{
+     font-size:18px;  
+}
+.lastone{
+      display:flex;
+    justify-content:space-between;
+}
+.kosi{
+     margin-right:5px;
+     margin-top:20px;
+}
+.chike{
+      margin-left:150px;
+      margin-top:20px;
+}
