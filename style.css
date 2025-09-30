@@ -6,7 +6,7 @@
       position:fixed;
       top:0;
       left:0;
-      width:850px;;
+      width:100%;
       padding:35px 12%;
       background-color:black;
       backdrop-filter:blur;
@@ -173,4 +173,5 @@
       border-radius:8px;
       margin:1rem;
       resize:none;
+
 }
