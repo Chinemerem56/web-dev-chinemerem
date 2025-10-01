@@ -8,7 +8,7 @@
       left:0;
       width:850px;
       padding:35px 12%;
-    background-color:rgb(238, 132, 238);
+      background-color:white;
       backdrop-filter:blur;
       display:flex;
       justify-content:space-between;
@@ -18,7 +18,7 @@
 }
 .nav-bar a{
       font-size:18px;
-      color:white;
+      color:black;
       font-weight:500;
       margin:0 20px;
       border-bottom:3px solid transparent;
@@ -56,7 +56,7 @@
       align-items:center;
       justify-content:space-between;
       padding:  20px 12%;
-      background-color:rgb(238, 132, 238)
+     background-color:white;
 }
 .home-content{
       width:450px;
