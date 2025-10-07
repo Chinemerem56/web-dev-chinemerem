@@ -1,0 +1,57 @@
+@media screen and (max-width: 920px) {
+      #portfolio {
+           height:80vh;
+           
+      }
+       
+          
+      }
+
+
+
+
+@media screen and (max-width: 893px) {
+      #desktop-link {
+            display:none;
+           
+           
+      }
+      #hamburger-nav{
+            display:flex;
+      }
+      
+      .service-details-container{
+           display:block;
+           align-items:center;
+           padding-bottom:100px;
+          
+          
+      }
+      .section-p{
+            display:block;
+            padding-left:100px;
+            padding-top:50px;
+            height:100vh;
+                 
+      }
+      
+      
+     
+
+      .about-container{
+           display:block;
+           padding-top:100px;
+           padding-left:100px;
+           padding-bottom:100px;
+           height:100vh;
+      }   
+     .details-color-container{
+         padding-left:100px;
+     }
+      .contact-info-upper-container{
+            padding-left:100px;
+      }
+      footer{
+            padding-left:70px;
+      }
+}
