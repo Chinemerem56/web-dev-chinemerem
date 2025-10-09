@@ -169,8 +169,8 @@ a:hover{
       align-items:center;
       justify-content:center;
      
-      
-      height:100vh;
+     height:100vh; 
+     
       
    
 }
@@ -234,7 +234,7 @@ article{
      display:flex;
      justify-content:center;
      gap:20px;
-     height:100vh;
+    
      flex-direction:column;   
  }
  .project-containers{
@@ -283,10 +283,10 @@ article{
  .contact-info-upper-container{
       display:flex;
       justify-content:center;
-      gap:40px;
-      border:black 1px solid;
-      border-radius:5px;
-      margin:2rem auto;
+     
+      align-items:center;
+     
+     
  }
  .contact-info-containers img{
       width:200px;
