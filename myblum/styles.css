@@ -193,6 +193,7 @@ a:hover{
    
       border:rgb(150, 148, 148) 2px solid;
       padding:1.5rem;
+      padding-bottom:0px;
       border-radius:15px;
       
 
@@ -224,6 +225,14 @@ article{
       width:4rem;
       justify-content:space-around;
       gap:0.5rem;
+}
+.my-container{
+      display:flex;
+       justify-content:center;
+
+      gap:40px;
+      height:100vh;
+     
 }
 /* project*/
 .article-container-images img{

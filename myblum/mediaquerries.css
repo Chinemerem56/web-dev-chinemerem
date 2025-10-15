@@ -1,12 +1,3 @@
-@media screen and (max-width:385px) {
-    
-        #service{
-            height:120vh;
-      }
-          
-      }
-
-
 
 
 @media screen and (max-width: 893px) {
@@ -17,7 +8,7 @@
       }
       #hamburger-nav{
             display:flex;
-            gap:400px;
+            gap:200px;
       }
       
       .service-details-container{
@@ -29,11 +20,11 @@
           
       }
       .section-p{
-            display:block;
-            height:120vh;
-            padding-top:120px;
-            padding-left:100px;
-            
+           display:flex;
+           flex-direction:column;
+           text-align:center;
+           padding-left:90px;
+           gap:40px;
           
                  
       }#service{
@@ -43,24 +34,45 @@
       }#project{
             padding-left:0px;
       }
-      
+      .section-p img{
+            width:400px;
+            height:400px;
+      }
+      .my-container{
+            display:flex;
+            padding-left:45px;
+      }
+       
       
      
 
       .about-container{
-           display:block;
-           padding-top:100px;
-           padding-left:100px;
-           padding-bottom:100px;
-           height:100vh;
+           display:flex;
+           flex-direction:column;
+           padding-left:80px;
+           height:120vh;
       }   
      .details-color-container{
-         padding-left:100px;
+             display:flex;
+             flex-direction:column;
+             align-items:center;
+             padding-left:70px;
      }
       .contact-info-upper-container{
-         padding-left:40px;
+             display:flex;
+             flex-direction:column;
+             gap:40px;
+             justify-content:center;
+             padding-top:70px;
+      }.contact-info-container{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
       }
       footer{
-            padding-left:70px;
+           display:flex;
+           flex-direction:column;
+           justify-content:center;
+         padding-left:50px;
       }
 }
