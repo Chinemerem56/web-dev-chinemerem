@@ -5,14 +5,19 @@
 
             </title>
             <body>
+
+       <button id="My-Button">Button</button>
+
+                  <!--
                  <div class="container">
 
                
                 <button onclick="
                   alert('hello world')" class="click-mebutton">CLICK ME</button> 
                     </div> 
-                    
+                  -->
                     <style>
+
                         *{
                               margin:0;
                               padding:0;
@@ -47,7 +52,11 @@ console.log(life);
 document.getElementById("demo").innerHTML= life
   */
 
-
+  const button = document.getElementById('My-Button')
+  button.addEventListener("click", Dosomething)
+  function Dosomething(){
+      alert('hello world')
+  }
                  
                   </script>
             </body>
