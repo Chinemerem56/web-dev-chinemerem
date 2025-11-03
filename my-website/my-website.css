@@ -1,0 +1,134 @@
+* {
+      margin:0;
+      padding:0;
+     
+     
+     
+}
+ body{
+      background-color:yellow;
+ }
+h1{
+      text-align:center;
+      font-family:cursive;
+      
+      background-color:yellow;
+}
+p{
+      text-align:center;
+      font-size:17px;
+      background-color:yellow;
+}
+
+
+.container{
+     display:flex;
+    gap:50px;
+      
+     
+}
+.container img{
+    width:70PX;
+     
+}
+.my-nav li{
+      list-style:none;
+}
+.my-nav{
+     display:flex;
+     gap:25px;
+     margin-top:27px;
+}
+.my-nav a{
+      text-decoration:none;
+      color:black;
+      
+}
+.second-content{
+      display:flex;
+      margin-top:27px;
+      gap:10px;
+}
+.second-content img{
+      width:30px;
+     
+}
+.top-nav{
+      display:flex;
+      gap:300px;
+     
+}.my-button{
+      height:25px;
+      width:70px;
+      background-color:orangered;
+      border-radius:15px;
+      border:none;
+}
+h2{
+      font-family:cursive;
+      margin-top:20px;
+   
+}
+.second-section-images img{
+      width:70px;
+}
+.second-section-container{
+      margin-top:140px;
+      
+}
+.second-images img{
+      width:360px;
+      height:400px;
+      
+}
+.all-section{
+      display:flex;
+      gap:30px;
+}
+.first-product img{
+      width:50px;
+      margin-left:60px;
+}
+.second-product img{
+      width:90px;
+       margin-left:40px;
+}
+.third-product img{
+      width:90px;
+       margin-left:40px;
+}
+.product-content{
+      margin-top:50px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+     
+}
+h3{
+    font-size:30px; 
+    font-family:cursive; 
+}
+.summary{
+      border:2px solid black;
+      height:420px;
+      background-color:white;
+      margin-left:50px;
+      margin-right:120px;
+      border-radius:5px;
+      border:none;
+}
+@media(max-width:768px){
+      .summary-content{
+            display:block;
+            margin-left:100px;
+      }
+      .summary{
+            height:500px;
+      width:700px;
+margin-left:0;      }
+.top-nav{
+      display:flex;
+      gap:150px;
+}
+}
+
